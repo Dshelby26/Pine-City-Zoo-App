@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places</title>
+    <style>
+   body{
+            padding: 0%;
+            margin: 0%;
+            font-family: Helvetica;
+        }
+        #header{
+            position:fixed;
+            top: 0%;
+            left: 0%;
+            z-index: 500%;
+            width: 100%;
+            height: 80px;
+            background-image: url('images/wood-bg.png');
+            background-repeat: repeat-x;
+        }
+        #header img{
+            display: block;
+            margin: auto;
+            height: 70%;
+            padding-top: 15px;
+        }
+        #tabs-top{
+            position:fixed;
+            top: 80px;
+            left: 0;
+            z-index: 500;
+            width: 100%;
+            height: 50px;
+            background-color: darkgreen;
+        }
+         #tabs-top a{
+            float   : left;
+            display : block;
+            width   : 33%;
+            height  :35px;
+            font-weight : 700;
+            color       : white;
+            text-align  : center;
+            text-decoration : none;
+            padding-top     : 12px;  
+}
+        #main-home{
+            margin-top: 120px;
+        }
+        #tabs-bottom{
+            position :fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 500;
+            width: 100%;
+            height: 40px;
+            background-color: forestgreen;
+        }
+        #tabs-bottom a{
+            float: left;
+            display: block;
+            width: 50%;
+            height: 35px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            padding-top: none;
+        }
+
+
+        #main{
+    margin-top: 119px;
+    background: url('images/map-blur.png');
+    background-repeat: repeat-y;
+    }
+    #content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+    }
+        a.info-box{
+    text-decoration : none;
+    background      : rgba(255 ,225, 55, .8);
+    width           : 90%;
+    height          : 90px;
+    display         : block;
+    margin          : auto;
+    margin-top      : 12px;
+    padding         : 1px;
+}
+    .info-box img{
+    height : 70px;
+    margin : 10px;
+    float  : left;
+    }
+    .info-box h3{
+    padding : 0;
+    margin-bottom :0;
+    width : 90%;
+    color : #572800;
+    }
+    .info-box p{
+    margin  : 0;
+    padding : 0;
+    width   : 90%;
+    color   : #131313;
+    }
+    .info-box img.right{
+    float: right;
+    margin-top : 25px;
+    height :  40px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="images/logo.png" alt="Pine Zoo Logo">
+    </div>
+    <div id="tabs-top">
+        <a href="Animals.html">Animals</a>
+        <a href="Pine Zoo App.html">Map</a>
+        <a href="Places.html">PLACES</a>
+    </div>
+    <div id="main">
+    <div id="content">
+    <a class="info-box" href="Amphitheatre.html">
+    <img class="right" src="images/next-arrow.png"/>
+    <img src="images/amphitheatre-tn.png"/>
+    <h3>AMPHITHEATRE</h3>
+    <p>Catch an educational and entertaining event</p>
+    </a>
+     <a class="info-box" href="Insect House.html">
+    <img class="right" src="images/next-arrow.png"/>
+    <img src="images/insect-house-tn.png"/>
+    <h3>INSECT HOUSE</h3>
+    <p>Creepy crawlies of every kind you can imagine!</p>
+    </a>
+     <a class="info-box" href="Monkeytrail.html">
+    <img class="right" src="images/next-arrow.png"/>
+    <img src="images/monkey-trail-tn.png"/>
+    <h3>MONKEY TRAIL</h3>
+    <p>Take a walk or ride through this challenging obstacle course</p>
+    </a>
+     <a class="info-box" href="Coffee Shop.html">
+    <img class="right" src="images/next-arrow.png"/>
+    <img src="images/coffee-shop-tn.png"/>
+    <h3>WILD THINGS COFFEE SHOP</h3>
+    <p> Enjoy a cuppa or a dessert here</p>
+    </a>
+     <a class="info-box" href="LostForest.html">
+    <img class="right" src="images/next-arrow.png"/>
+    <img src="images/lost-forest-tn.png"/>
+    <h3>LOST FOREST</h3>
+    <p>Relax and have a picnic under the trees by the lake</p>
+    </a>
+     <a class="info-box" href="MosPizza.html">
+    <img class="right" src="images/next-arrow.png"/>
+    <img src="images/pizza-shop-tn.png"/>
+    <h3>MO'S PIZZA</h3>
+    <p>Scrumptous Pizzas and Pastas for the Family.</p>
+    </a>
+     <a class="info-box" href="DineZoo.html">
+    <img class="right" src="images/next-arrow.png"/>
+    <img src="images/restaurant-tn.png"/>
+    <h3>DINE @THE ZOO</h3>
+    <p>Enjoy gourmet meals in a serene outdoor setting.</p>
+    </a>
+    </div>
+    </div>
+    <div id="tabs-bottom">
+    <a href="Weather.html">WEATHER</a>
+    <a href="Feedback.html">FEEDBACK</a>
+
+</div>
+</body>
+</html>
